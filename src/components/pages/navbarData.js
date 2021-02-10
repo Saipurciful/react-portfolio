@@ -1,30 +1,37 @@
 import React from 'react';
-import { FaBehance, FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaEnvelope, FaGithub, FaLinkedin, FaPhone, FaHome, FaUser, FaUserGraduate, FaAddressBook, FaFileCode, FaUserAlt, FaFolderOpen } from 'react-icons/fa';
+
 export const links = [
     {
         id: 1,
         url: '/',
-        text: 'home',
+        text: 'Home',
+        icon: <FaHome />
+
     },
     {
         id: 2,
-        url: '/about',
+        url: '/About',
         text: 'about',
+        icon: <FaUserAlt />
     },
     {
         id: 3,
-        url: '/projects',
-        text: 'projects',
+        url: '/Portfolio',
+        text: 'Portfolio',
+        icon: <FaFolderOpen />
     },
     {
         id: 4,
-        url: '/contact',
+        url: '/Contact',
         text: 'contact',
+        icon: <FaAddressBook />
     },
     {
         id: 5,
-        url: '/profile',
-        text: 'profile',
+        url: '/Resume',
+        text: 'resume',
+        icon: <FaUserGraduate />
     },
 ];
 
@@ -46,7 +53,8 @@ export const social = [
     },
     {
         id: 4,
-        url: 'https://www.twitter.com',
-        icon: <FaBehance />,
+        url: 'tel:7022036562',
+        icon: <FaPhone />,
     },
 ];
+

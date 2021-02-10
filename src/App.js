@@ -1,14 +1,36 @@
-import "./App.css"
+// import "./App.css"
 import React from "react"
-// import About from "./pages/About"
-// import Home from "./pages/Home"
-import Navbar from "./pages/navbar/Navbar"
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
+import { Home, About, Contact, Portfolio, Resume } from "./components/pages"
+import Navbar from "./components/pages/Navbar"
 
 function App() {
+
   return (
-    <Navbar />
-    // <Home />,
-    // <About />
+
+    <Router>
+      <Navbar />
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route exact path="/about">
+          <About />
+        </Route>
+        <Route exact path="/contact">
+          <Contact />
+        </Route>
+        <Route exact path="/portfolio">
+          <Portfolio />
+        </Route>
+        <Route exact path="/resume">
+          <Resume />
+        </Route>
+      </Switch>
+    </Router>
   )
 }
 
