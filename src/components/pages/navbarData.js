@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaEnvelope, FaGithub, FaLinkedin, FaPhone, FaHome, FaUser, FaUserGraduate, FaAddressBook, FaFileCode, FaUserAlt, FaFolderOpen } from 'react-icons/fa';
+import { FaEnvelope, FaGithub, FaLinkedin, FaPhone, FaHome, FaAddressBook, FaUserAlt, FaFolderOpen, FaFilePdf } from 'react-icons/fa';
 
 export const links = [
     {
@@ -31,7 +31,7 @@ export const links = [
         id: 5,
         url: '/Resume',
         text: 'resume',
-        icon: <FaUserGraduate />
+        icon: <FaFilePdf />
     },
 ];
 

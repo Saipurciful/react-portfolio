@@ -1,9 +1,10 @@
 import React from 'react'
-
+import Iframe from "react-iframe"
+import resume from "./resume.pdf"
 function Resume() {
     return (
         <div>
-            <h1>Resume</h1>
+            <Iframe src={resume} className="resume" />
         </div>
     )
 }

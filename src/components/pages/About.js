@@ -3,6 +3,7 @@ import React from 'react'
 function About() {
     return (
         <div>
+            <img src="./22.png" alt="" className="aboutPic" />
             <div className="container about" id="about">
                 <h1>About Me</h1>
                 <div class="about-me-info">
