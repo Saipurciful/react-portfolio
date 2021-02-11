@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
 
-
-
-
 *,
 ::after,
 ::before {
@@ -90,8 +87,6 @@ p {
     }
 }
 
-
-/* section */
 .section {
     width: 90vw;
     margin: 0 auto;
@@ -228,16 +223,70 @@ nav {
     }
 }
 
+/*
+=============== 
+ABOUT
+===============
+*/
 .aboutPic {
-    width: 350px;
-    height: 350px;
-    margin-top: 10%;
+    width: 250px;
+    height: 250px;
+    margin-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 #about {
-    float: right;
-    margin-top: 0%;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: #a69cbe; */
+    margin-top: 2%;
 }
+
+.about {
+    height: 80vh;
+    margin-top: 80px;
+}
+
+.about h1 {
+    font-size: 6rem;
+    z-index: 0;
+    /* opacity: .1; */
+    color: #a69cbe;
+
+}
+
+.about-me-info {
+    max-width: 1300px;
+    background-color: #a69cbe;
+    box-shadow: 0 0 1.4rem rgba(0, 0, 0, .25);
+    padding: 50px;
+    position: relative;
+    top: 50px;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+
+}
+
+.about-me-info p {
+    font-size: 1.3rem;
+    color: black;
+}
+
+.about-me-info p:nth-child(2),
+.about-me-info p:last-child {
+    margin-top: 30px;
+}
+
+/*
+=============== 
+RESUME
+===============
+*/
 
 .resume {
     background-color: skyblue;
@@ -248,7 +297,11 @@ nav {
     justify-content: stretch;
 }
 
-/* FOR PORTFOLIO */
+/*
+=============== 
+PORTFOLIO
+===============
+*/
 .header-port {
     min-height: 80px;
     cursor: pointer;
@@ -332,4 +385,15 @@ nav {
     font-family: 'Emilys Candy',
         cursive;
 
+}
+
+/*
+=============== 
+CONTACT
+===============
+*/
+
+.contact img {
+    width: 200px;
+    height: 200px;
 }
