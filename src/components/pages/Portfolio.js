@@ -55,22 +55,10 @@ function Portfolio() {
 
                 </div>
 
-                <div className="thumb" data-id="JS/HTML/CSS">
-                    <img src="pwgen.png" alt="" />
-                    <h5>JS: PW-Generator </h5> <br /> <a target="_blank" href="https://github.com/Saipurciful/Password-Generator"><FaGithub /> Code </a>
-                    <a target="_blank" href="https://saipurciful.github.io/Password-Generator/"><FaChrome /> Website </a>
-                </div>
-
                 <div className="thumb" data-id="Handlebars">
                     <img src="caffee.png" alt="" />
                     <h5>HANDLEBAR: Caffeine </h5> <br /> <a target="_blank" href="https://github.com/aprilyanggarwood/CaffeinParadise2/tree/Sai"><FaGithub /> Code </a>
                     <a target="_blank" href="https://caffeinparadise2.herokuapp.com/signup.html"><FaChrome /> Website </a>
-                </div>
-
-                <div className="thumb" data-id="Mern">
-                    <img src="/56-imageGalleryHoverEffects/noteTaker.png" alt="COMMING SOON" />
-                    <h5>MERN: COMMING SOON </h5> <br /> <a target="_blank" href="#"><FaGithub /> Code </a>
-                    <a target="_blank" href="#"><FaChrome /> Website </a>
                 </div>
 
 
