@@ -31,15 +31,15 @@ function Contact() {
                             </Card.Footer>
                         </Card>
                     </Col>
-                </Row>
+                    {/* </Row>
 
 
-                <Row>
+                <Row> */}
                     <Col>
                         <Card className="conCard">
-                            <Card.Img variant="top" src="#" />
+                            <Card.Img variant="top" src="linkedin-logo.png" />
                             <Card.Footer>
-                                <Button variant="info" size="lg"><a target="_blank" href="https://github.com/Saipurciful">Github</a></Button>
+                                <Button variant="info" size="lg"><a target="_blank" href="https://www.linkedin.com/in/suthunya-purciful-59956a18b/">Linkedin</a></Button>
                             </Card.Footer>
                         </Card>
                     </Col>
@@ -53,29 +53,8 @@ function Contact() {
                         </Card>
                     </Col>
                 </Row>
-
-                <Row>
-                    <Col>
-
-                        <Card className="conCard">
-                            <Card.Img variant="top" src="linkedin-logo.png" />
-                            <Card.Footer>
-                                <Button variant="info" size="lg"><a target="_blank" href="https://www.linkedin.com/in/suthunya-purciful-59956a18b/">Linkedin</a></Button>
-                            </Card.Footer>
-                        </Card>
-                    </Col>
-                    <Col>
-
-                        <Card className="conCard">
-                            <Card.Img variant="top" src="line.png" />
-
-                            <Card.Footer>
-                                <Button variant="info" size="lg"><a>Line: QR code</a></Button>
-                            </Card.Footer>
-                        </Card>
-                    </Col>
-                </Row>
             </Container>
+
         </CardDeck>
 
     )

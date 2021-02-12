@@ -1,10 +1,11 @@
 import React, { useState, useRef, useEffect } from 'react';
-
+import { Link, useLocation } from "react-router-dom"
 import { FaBars } from 'react-icons/fa';
 import { links } from './navbarData';
 
 
 const Navbar = () => {
+    const location = useLocation();
     const [showLinks, setShowLinks] = useState(false);
     const linksContainerRef = useRef(null);
     const linksRef = useRef(null);
@@ -20,10 +21,17 @@ const Navbar = () => {
         }
     }, [showLinks]);
     return (
+
         <nav>
             <div className='nav-center'>
                 <div className='nav-header'>
-                    <img src="./favicon1.ico" className='logo' alt='Sais pic' />
+                    <h3><Link
+                        to="/"
+                        className={location.pathname === "/home" ? "nav-link active" : "nav-link"}
+                    >
+                        Suthunya Purciful
+        </Link></h3>
+
                     <button className='nav-toggle' onClick={toggleLinks}>
                         <FaBars />
                     </button>
