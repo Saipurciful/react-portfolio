@@ -250,11 +250,16 @@ ABOUT
     margin-top: 80px;
 }
 
-.about h1 {
+.about h1,
+.contact h1,
+.portfolio h1 {
     font-size: 6rem;
     z-index: 0;
     /* opacity: .1; */
     color: #a69cbe;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 
 }
 
@@ -280,21 +285,6 @@ ABOUT
 .about-me-info p:nth-child(2),
 .about-me-info p:last-child {
     margin-top: 30px;
-}
-
-/*
-=============== 
-RESUME
-===============
-*/
-
-.resume {
-    background-color: skyblue;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: stretch;
 }
 
 /*
@@ -387,13 +377,252 @@ PORTFOLIO
 
 }
 
+
 /*
 =============== 
 CONTACT
 ===============
 */
 
+
 .contact img {
     width: 200px;
     height: 200px;
+
+}
+
+.contact Img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    align-items: center;
+
+}
+
+.contact Button a {
+    color: blanchedalmond;
+}
+
+.conCard {
+    margin: 5%;
+    box-shadow: 10px 10px 5px grey;
+
+
+    /*
+=============== 
+PORTFOLIO
+===============
+*/
+    .header-port {
+        min-height: 80px;
+        cursor: pointer;
+    }
+
+    .header-port .logo-port {
+        font-size: 3em;
+        text-transform: uppercase;
+        font-weight: 1200;
+        line-height: 80px;
+        float: left;
+        margin-left: 50px;
+
+    }
+
+    .header-port ul {
+        float: right;
+    }
+
+    .header-port ul li {
+        list-style: none;
+        display: inline-block;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        font-weight: 900;
+        padding: 0 20px;
+        line-height: 80px;
+        margin-right: 30px;
+
+    }
+
+    .header-port ul li:hover,
+    .header-port ul .active {
+        background: rgb(195, 136, 230);
+    }
+
+    .port {
+        width: 100%;
+        padding: 10px;
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .thumb {
+        width: 24%;
+        min-width: 350px;
+        height: 400px;
+        text-align: center;
+        cursor: pointer;
+        padding: 10px;
+        /* border-style: ridge; */
+        margin: 1%;
+
+    }
+
+    .thumb img {
+        width: 380px;
+        height: 350px;
+        display: block;
+        object-position: top;
+        object-fit: cover;
+        align-items: center;
+    }
+
+    .thumb h4 {
+        font-size: 1.5rem;
+        font-weight: 900;
+        letter-spacing: 3px;
+        text-align: left;
+        line-height: 80px;
+        margin-left: 0;
+
+
+    }
+
+    .thumb h5 {
+        margin-top: 0px;
+        text-align: left;
+        font-family: 'Emilys Candy',
+            cursive;
+
+    }
+
+
+    /*
+=============== 
+PORTFOLIO
+===============
+*/
+    .header-port {
+        min-height: 80px;
+        cursor: pointer;
+    }
+
+    .header-port .logo-port {
+        font-size: 3em;
+        text-transform: uppercase;
+        font-weight: 1200;
+        line-height: 80px;
+        float: left;
+        margin-left: 50px;
+
+    }
+
+    .header-port ul {
+        float: right;
+    }
+
+    .header-port ul li {
+        list-style: none;
+        display: inline-block;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        font-weight: 900;
+        padding: 0 20px;
+        line-height: 80px;
+        margin-right: 30px;
+
+    }
+
+    .header-port ul li:hover,
+    .header-port ul .active {
+        background: rgb(195, 136, 230);
+    }
+
+    .port {
+        width: 100%;
+        padding: 10px;
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .thumb {
+        width: 24%;
+        min-width: 350px;
+        height: 400px;
+        text-align: center;
+        cursor: pointer;
+        padding: 10px;
+        /* border-style: ridge; */
+        margin: 1%;
+
+    }
+
+    .thumb img {
+        width: 380px;
+        height: 350px;
+        display: block;
+        object-position: top;
+        object-fit: cover;
+        align-items: center;
+    }
+
+    .thumb h4 {
+        font-size: 1.5rem;
+        font-weight: 900;
+        letter-spacing: 3px;
+        text-align: left;
+        line-height: 80px;
+        margin-left: 0;
+
+
+    }
+
+    .thumb h5 {
+        margin-top: 0px;
+        text-align: left;
+        font-family: 'Emilys Candy',
+            cursive;
+
+    }
+
+    ;
+}
+
+
+/*
+=============== 
+RESUME
+===============
+*/
+
+.resume {
+    background-color: skyblue;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+
+
+/*
+=============== 
+FOOTER
+===============
+*/
+
+.footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #a69cbe;
+    color: black;
+    margin-top: 3%;
+    font-family: 'Emilys Candy',
+        cursive;
 }

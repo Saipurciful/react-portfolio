@@ -3,6 +3,7 @@ import React from "react"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 import { Home, About, Contact, Portfolio, Resume } from "./components/pages"
 import Navbar from "./components/pages/Navbar"
+import Footer from "./components/pages/Footer"
 
 function App() {
 
@@ -30,7 +31,9 @@ function App() {
           <Resume />
         </Route>
       </Switch>
+      <Footer />
     </Router>
+
   )
 }
 
