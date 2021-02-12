@@ -1,5 +1,11 @@
 import React from 'react'
 import { FaGithub, FaChrome } from "react-icons/fa"
+import Burger from "../images/burger.png"
+import Calendar from "../images/calendar.png"
+import Cocktail from "../images/cocktail.png"
+import Code from "../images/codeq.png"
+import NoteTaker from "../images/noteTaker.png"
+import Coffee from "../images/caffee.png"
 
 function Portfolio() {
     return (
@@ -7,58 +13,58 @@ function Portfolio() {
             <h1>Portfolio</h1>
             <section className="port">
                 <div className="thumb">
-                    <img src="burger.png" alt="" />
+                    <img src={Burger} alt="" />
 
-                    <h5>JS: Eat-Da-Burger</h5> <br /><a target="_blank" href="https://github.com/Saipurciful/burger">  <FaGithub />
+                    <h5>JS: Eat-Da-Burger</h5> <br /><a href="https://github.com/Saipurciful/burger">  <FaGithub />
                      Code </a>
-                    <a target="_blank" href="https://evening-wildwood-75697.herokuapp.com/"> <FaChrome />
+                    <a href="https://evening-wildwood-75697.herokuapp.com/"> <FaChrome />
                      Website </a>
 
                 </div>
 
                 <div className="thumb" data-id="JS/HTML/CSS">
-                    <img src="calendar.png" alt="" />
+                    <img src={Calendar} alt="" />
 
-                    <h5>JS: Daily Calendar </h5> <br /> <a target="_blank" href="https://github.com/Saipurciful/DailyCalendar"><FaGithub />
+                    <h5>JS: Daily Calendar </h5> <br /> <a href="https://github.com/Saipurciful/DailyCalendar"><FaGithub />
                          Code </a>
-                    <a target="_blank" href="https://saipurciful.github.io/DailyCalendar/"><FaChrome />
+                    <a href="https://saipurciful.github.io/DailyCalendar/"><FaChrome />
                          Website </a>
 
                 </div>
 
                 <div className="thumb" data-id="JS/HTML/CSS">
-                    <img src="cocktail.png" alt="" />
+                    <img src={Cocktail} alt="" />
 
-                    <h5>JS: Meals Generator </h5> <br /> <a target="_blank" href="https://github.com/samrod777/Recipe-List-Platform"><FaGithub />
+                    <h5>JS: Meals Generator </h5> <br /> <a href="https://github.com/samrod777/Recipe-List-Platform"><FaGithub />
                     Code </a>
-                    <a target="_blank" href="https://samrod777.github.io/Recipe-List-Platform/"><FaChrome />
+                    <a href="https://samrod777.github.io/Recipe-List-Platform/"><FaChrome />
                     Website </a>
 
 
                 </div>
 
                 <div className="thumb" data-id="JS/HTML/CSS">
-                    <img src="codeq.png" alt="" />
-                    <h5>JS: CodeQuiz </h5> <br /> <a target="_blank" href="https://github.com/Saipurciful/JS-CodeQuiz"><FaGithub />
+                    <img src={Code} alt="" />
+                    <h5>JS: CodeQuiz </h5> <br /> <a href="https://github.com/Saipurciful/JS-CodeQuiz"><FaGithub />
                     Code </a>
-                    <a target="_blank" href="https://saipurciful.github.io/JS-CodeQuiz/"><FaChrome />
+                    <a href="https://saipurciful.github.io/JS-CodeQuiz/"><FaChrome />
                     Website </a>
 
                 </div>
 
                 <div className="thumb" data-id="JS/HTML/CSS">
-                    <img src="noteTaker.png" alt="" />
-                    <h5>JS: Note Taker </h5> <br /> <a target="_blank" href="https://github.com/Saipurciful/Note-Taker"><FaGithub />
+                    <img src={NoteTaker} alt="" />
+                    <h5>JS: Note Taker </h5> <br /> <a href="https://github.com/Saipurciful/Note-Taker"><FaGithub />
                     Code </a>
-                    <a target="_blank" href="https://notetakerapplic.herokuapp.com/"><FaChrome />
+                    <a href="https://notetakerapplic.herokuapp.com/"><FaChrome />
                     Website </a>
 
                 </div>
 
                 <div className="thumb" data-id="Handlebars">
-                    <img src="caffee.png" alt="" />
-                    <h5>HANDLEBAR: Caffeine </h5> <br /> <a target="_blank" href="https://github.com/aprilyanggarwood/CaffeinParadise2/tree/Sai"><FaGithub /> Code </a>
-                    <a target="_blank" href="https://caffeinparadise2.herokuapp.com/signup.html"><FaChrome /> Website </a>
+                    <img src={Coffee} alt="" />
+                    <h5>HANDLEBAR: Caffeine </h5> <br /> <a href="https://github.com/aprilyanggarwood/CaffeinParadise2/tree/Sai"><FaGithub /> Code </a>
+                    <a href="https://caffeinparadise2.herokuapp.com/signup.html"><FaChrome /> Website </a>
                 </div>
 
 

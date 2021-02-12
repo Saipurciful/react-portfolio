@@ -2,13 +2,14 @@ import React from 'react'
 import FloatingComponent from 'react-floating-component';
 import Button from 'react-bootstrap/Button'
 import { Link, useLocation } from "react-router-dom"
+import ProfilePic from "../images/22.png"
 
 function Home() {
     const location = useLocation();
     return (
         <section className="homeBody">
             <main>
-                <FloatingComponent><img src="./22.png" alt="" className="aboutPic" /></FloatingComponent>
+                <FloatingComponent><img src={ProfilePic} alt="" className="aboutPic" /></FloatingComponent>
             </main>
 
             <div>
