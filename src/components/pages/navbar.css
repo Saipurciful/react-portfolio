@@ -578,7 +578,8 @@ FOOTER
     background-color: #181818;
     color: rgb(194, 189, 181);
     margin-top: 0%;
-    padding-bottom: 1%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
     font-family: 'Emilys Candy',
         cursive;
 }
