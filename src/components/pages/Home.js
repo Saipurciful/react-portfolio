@@ -3,6 +3,8 @@ import FloatingComponent from 'react-floating-component';
 import Button from 'react-bootstrap/Button'
 import { Link, useLocation } from "react-router-dom"
 import ProfilePic from "../images/22.png"
+import { FaHome, FaAddressBook, FaFolderOpen, FaFilePdf } from 'react-icons/fa';
+
 
 function Home() {
     const location = useLocation();
@@ -55,12 +57,31 @@ function Home() {
                                     </h1>
 
                                 </div>
-                                <Button variant="outline-info" size="lg"> <Link
+                                <Button variant="outline-info"> <Link
+                                    to="/about"
+                                    className={location.pathname === "/about" ? "nav-link active" : "nav-link"}
+                                > <FaHome />
+                                     About
+        </Link></Button>
+                                <Button variant="outline-info"> <Link
                                     to="/contact"
                                     className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}
-                                >
-                                    Contact Me
+                                ><FaAddressBook />
+                                     Contact Me
         </Link></Button>
+                                <Button variant="outline-info"> <Link
+                                    to="/portfolio"
+                                    className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
+                                ><FaFolderOpen />
+                                    Portfolio
+        </Link></Button>
+                                <Button variant="outline-info"> <Link
+                                    to="/resume"
+                                    className={location.pathname === "/resume" ? "nav-link active" : "nav-link"}
+                                ><FaFilePdf />
+                                     Resume
+        </Link></Button>
+
                             </div>
 
                         </div>

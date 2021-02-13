@@ -1,14 +1,8 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 
-
-
-
-
 const Navbar = () => {
     const location = useLocation();
-
-
 
     return (
 
@@ -21,7 +15,6 @@ const Navbar = () => {
                     >
                         Suthunya Purciful
         </Link></h3>
-
 
                 </div>
                 <div className='links-container'>
@@ -69,6 +62,8 @@ const Navbar = () => {
 
         </nav>
     );
-}
 
+
+
+}
 export default Navbar;

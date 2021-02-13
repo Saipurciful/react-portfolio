@@ -37,7 +37,8 @@ function Contact() {
                             </Card.Footer>
                         </Card>
                     </Col>
-
+                </Row>
+                <Row>
                     <Col>
                         <Card className="conCard">
                             <Card.Img variant="top" src={LinkedIn} />
