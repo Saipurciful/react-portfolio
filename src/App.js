@@ -10,6 +10,8 @@ import Contact from "./components/pages/Contact";
 import Resume from "./components/pages/Resume";
 import Portfolio from "./components/pages/Portfolio";
 
+
+
 function App() {
 
   return (
@@ -18,17 +20,19 @@ function App() {
         <Navbar />
 
 
+
         <Route exact path="/" component={Home} />
 
 
-        <Route exact path="/About" component={About} />
+        <Route exact path="/about" component={About} />
 
 
-        <Route exact path="/Contact" component={Contact} />
+        <Route exact path="/contact" component={Contact} />
 
         <Route exact path="/Portfolio" component={Portfolio} />
 
         <Route exact path="/Resume" component={Resume} />
+
 
         <Footer />
 

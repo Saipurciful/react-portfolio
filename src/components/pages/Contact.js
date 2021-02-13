@@ -23,7 +23,7 @@ function Contact() {
                         <Card className="conCard">
                             <Card.Img variant="top" src={Phone} />
                             <Card.Footer>
-                                <Button variant="info" size="lg"><a href="tel:7022036562"> Call</a></Button>
+                                <Button variant="info" size="lg"><a target="_blank" href="tel:7022036562"> Call</a></Button>
                             </Card.Footer>
                         </Card>
                     </Col>
@@ -33,19 +33,16 @@ function Contact() {
                         <Card className="conCard">
                             <Card.Img variant="top" src={Email} />
                             <Card.Footer>
-                                <Button variant="info" size="lg"><a href="mailto:saipurciful@gmail.com">Email</a></Button>
+                                <Button variant="info" size="lg"><a target="_blank" href="mailto:saipurciful@gmail.com">Email</a></Button>
                             </Card.Footer>
                         </Card>
                     </Col>
-                    {/* </Row>
 
-
-                <Row> */}
                     <Col>
                         <Card className="conCard">
                             <Card.Img variant="top" src={LinkedIn} />
                             <Card.Footer>
-                                <Button variant="info" size="lg"><a href="https://www.linkedin.com/in/suthunya-purciful-59956a18b/">Linkedin</a></Button>
+                                <Button variant="info" size="lg"><a target="_blank" href="https://www.linkedin.com/in/suthunya-purciful-59956a18b/">Linkedin</a></Button>
                             </Card.Footer>
                         </Card>
                     </Col>
@@ -54,7 +51,7 @@ function Contact() {
                         <Card className="conCard">
                             <Card.Img variant="top" src={Github} />
                             <Card.Footer>
-                                <Button variant="info" size="lg"><a href="https://github.com/Saipurciful">Github</a></Button>
+                                <Button variant="info" size="lg"><a target="_blank" href="https://github.com/Saipurciful">Github</a></Button>
                             </Card.Footer>
                         </Card>
                     </Col>
