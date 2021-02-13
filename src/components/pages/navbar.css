@@ -529,7 +529,7 @@ CONTACT
 .contact {
     background-color: #252627;
     padding-bottom: 5%;
-    /* height: 100vh; */
+    width: 100%;
 
 }
 
