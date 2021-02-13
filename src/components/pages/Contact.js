@@ -17,7 +17,7 @@ function Contact() {
 
         < CardDeck className="contact" >
             <h1>Contact</h1>
-            <Container>
+            <Container className="port">
                 <Row>
                     <Col>
                         <Card className="conCard">
