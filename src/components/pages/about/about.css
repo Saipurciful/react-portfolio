@@ -1,0 +1,56 @@
+/*
+==============================
+ABOUT
+==============================
+*/
+.wrapperAbout {
+    background-color: #252627;
+}
+
+#about {
+    width: 100vw;
+    height: 100vh;
+    margin-top: 0%;
+}
+
+.about {
+    height: 80vh;
+    margin-top: 80px;
+}
+
+.about h1,
+.contact h1,
+.portfolio h1 {
+    font-size: 6rem;
+    z-index: 0;
+    color: #a69cbe;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Emilys Candy',
+        cursive;
+}
+
+.about-me-info {
+    max-width: 1300px;
+    background-color: #a69cbe;
+    box-shadow: 0 0 1.4rem rgba(0, 0, 0, .25);
+    padding: 50px;
+    position: relative;
+    top: 50px;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+
+}
+
+.about-me-info p {
+    font-size: 1.3rem;
+    color: black;
+}
+
+.about-me-info p:nth-child(2),
+.about-me-info p:last-child {
+    margin-top: 30px;
+}

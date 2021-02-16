@@ -1,11 +1,12 @@
 import React from 'react'
+import "./Portfolio.css"
 import { FaGithub, FaChrome } from "react-icons/fa"
-import Burger from "../images/burger.png"
-import Calendar from "../images/calendar.png"
-import Cocktail from "../images/cocktail.png"
-import Code from "../images/codeq.png"
-import NoteTaker from "../images/noteTaker.png"
-import Coffee from "../images/caffee.png"
+import Burger from "./burger.png"
+import Calendar from "./calendar.png"
+import Cocktail from "./cocktail.png"
+import Code from "./codeq.png"
+import NoteTaker from "./noteTaker.png"
+import Coffee from "./caffee.png"
 
 function Portfolio() {
     return (

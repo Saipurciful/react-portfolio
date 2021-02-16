@@ -1,0 +1,21 @@
+/*
+==============================
+FOOTER
+==============================
+*/
+
+.footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #181818;
+    color: rgb(194, 189, 181);
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    font-family: 'Emilys Candy',
+        cursive;
+}
+
+.contact .card-desk {
+    margin-left: 0%;
+}

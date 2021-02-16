@@ -1,8 +1,9 @@
 import React from 'react'
+import "./Home.css"
 import FloatingComponent from 'react-floating-component';
 import Button from 'react-bootstrap/Button'
 import { Link, useLocation } from "react-router-dom"
-import ProfilePic from "../images/22.png"
+import ProfilePic from "./22.png"
 import { FaHome, FaAddressBook, FaFolderOpen, FaFilePdf } from 'react-icons/fa';
 
 

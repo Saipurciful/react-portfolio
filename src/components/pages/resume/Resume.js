@@ -1,4 +1,5 @@
 import React from 'react'
+import "./Resume.css"
 import Iframe from "react-iframe"
 import resume from "./resume.pdf"
 function Resume() {

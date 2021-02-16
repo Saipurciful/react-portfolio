@@ -2,13 +2,13 @@
 import React from "react";
 import { HashRouter as Router, Route } from "react-router-dom";
 
-import Home from "./components/pages/Home";
-import About from "./components/pages/About";
-import Navbar from "./components/pages/Navbar";
-import Footer from "./components/pages/Footer";
-import Contact from "./components/pages/Contact";
-import Resume from "./components/pages/Resume";
-import Portfolio from "./components/pages/Portfolio";
+import Home from "./components/pages/home/Home";
+import About from './components/pages/about/About';
+import Navbar from "./components/pages/navbar/Navbar";
+import Footer from "./components/pages/footer/Footer";
+import Contact from "./components/pages/contact/Contact";
+import Resume from "./components/pages/resume/Resume";
+import Portfolio from "./components/pages/portfolio/Portfolio";
 
 
 
@@ -24,7 +24,7 @@ function App() {
         <Route exact path="/" component={Home} />
 
 
-        <Route exact path="/about" component={About} />
+        <Route exact path="/About" component={About} />
 
 
         <Route exact path="/contact" component={Contact} />

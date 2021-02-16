@@ -1,7 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import "./components/pages/navbar.css"
+import ReactDOM from "react-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
+// import "./components/pages/navbar.css"
+import App from "./App";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+
+ReactDOM.render(<App />, document.getElementById("root"));
