@@ -1,70 +1,48 @@
-import React from "react";
+import React, { useState, useRef, useEffect } from 'react';
+import { FaBars } from 'react-icons/fa';
 import "./navbar.css"
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom"
+import { links, social } from './navbarData';
 
 const Navbar = () => {
-    const location = useLocation();
-
+    const [showLinks, setShowLinks] = useState(false);
+    const linksContainerRef = useRef(null);
+    const linksRef = useRef(null);
+    const toggleLinks = () => {
+        setShowLinks(!showLinks);
+    };
+    useEffect(() => {
+        const linksHeight = linksRef.current.getBoundingClientRect().height;
+        if (showLinks) {
+            linksContainerRef.current.style.height = `${linksHeight}px`;
+        } else {
+            linksContainerRef.current.style.height = '0px';
+        }
+    }, [showLinks]);
     return (
-
         <nav>
             <div className='nav-center'>
                 <div className='nav-header'>
-                    <h3><Link
-                        to="/"
-                        className={location.pathname === "/home" ? "nav-link active" : "nav-link"}
-                    >
-                        Suthunya Purciful
-        </Link></h3>
-
+                    Suthunya Purciful
+                    <button className='nav-toggle' onClick={toggleLinks}>
+                        <FaBars />
+                    </button>
                 </div>
-                <div className='links-container'>
-                    <ul className="nav nav-tabs">
-                        <li className="nav-item">
-                            <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
-                                Home
-        </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link
-                                to="/about"
-                                className={location.pathname === "/about" ? "nav-link active" : "nav-link"}
-                            >
-                                About
-        </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link
-                                to="/contact"
-                                className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}
-                            >
-                                Contact
-        </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link
-                                to="/portfolio"
-                                className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
-                            >
-                                Portfolio
-        </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link
-                                to="/resume"
-                                className={location.pathname === "/resume" ? "nav-link active" : "nav-link"}
-                            >
-                                Resume
-        </Link>
-                        </li>
+                <div className='links-container' ref={linksContainerRef}>
+                    <ul className='links' ref={linksRef}>
+                        {links.map((link) => {
+                            const { id, url, text, icon } = link;
+                            return (
+                                <li key={id}>
+                                    <Link to={url}> {icon} {text}</Link>
+                                </li>
+                            );
+                        })}
                     </ul>
                 </div>
             </div>
-
         </nav>
     );
+};
 
-
-
-}
 export default Navbar;

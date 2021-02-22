@@ -11,8 +11,8 @@ export const links = [
     },
     {
         id: 2,
-        url: '/About',
-        text: 'about',
+        url: 'about',
+        text: 'About',
         icon: <FaUserAlt />
     },
     {
@@ -23,38 +23,16 @@ export const links = [
     },
     {
         id: 4,
-        url: '/Contact',
-        text: 'contact',
+        url: '/contact',
+        text: 'Contact',
         icon: <FaAddressBook />
     },
     {
         id: 5,
-        url: '/Resume',
-        text: 'resume',
+        url: '/resume',
+        text: 'Resume',
         icon: <FaFilePdf />
     },
 ];
 
-export const social = [
-    {
-        id: 1,
-        url: 'https://github.com/Saipurciful',
-        icon: <FaGithub />,
-    },
-    {
-        id: 2,
-        url: 'mailto:saipurciful@gmail.com',
-        icon: <FaEnvelope />,
-    },
-    {
-        id: 3,
-        url: 'https://www.linkedin.com/in/suthunya-purciful-59956a18b',
-        icon: <FaLinkedin />,
-    },
-    {
-        id: 4,
-        url: 'tel:7022036562',
-        icon: <FaPhone />,
-    },
-];
 
