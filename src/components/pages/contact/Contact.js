@@ -29,7 +29,9 @@ const Login = () => {
                                         <div>
                                             <img src={Phone} alt="" />
                                         </div>
-                                        <button><a target="_blank" href="tel:7022036562">Phone</a></button>
+                                        <div>
+                                            <button><a target="_blank" href="tel:7022036562">Phone</a></button>
+                                        </div>
                                     </div>
                                 </div>
                             </Tilt >
@@ -42,7 +44,9 @@ const Login = () => {
                                         <div>
                                             <img src={Email} alt="" />
                                         </div>
-                                        <button><a target="_blank" href="mailto:saipurciful@gmail.com">Email</a></button>
+                                        <div>
+                                            <button><a target="_blank" href="mailto:saipurciful@gmail.com">Email</a></button>
+                                        </div>
                                     </div>
                                 </div>
                             </Tilt>
@@ -54,8 +58,12 @@ const Login = () => {
                             <Tilt className="containerLogin">
                                 <div className="cardS">
                                     <div className="contentCard">
-                                        <img src={Github} alt="" />
-                                        <button><a target="_blank" href="https://github.com/Saipurciful">Github</a></button>
+                                        <div>
+                                            <img src={Github} alt="" />
+                                        </div>
+                                        <div>
+
+                                            <button><a target="_blank" href="https://github.com/Saipurciful">Github</a></button></div>
                                     </div>
                                 </div>
                             </Tilt >
@@ -65,8 +73,11 @@ const Login = () => {
                             <Tilt className="containerLogin">
                                 <div className="cardS">
                                     <div className="contentCard">
-                                        <img src={LinkedIn} alt="" />
-                                        <button><a target="_blank" href="https://www.linkedin.com/in/suthunya-purciful-59956a18b/">Linkedin</a></button>
+                                        <div>
+                                            <img src={LinkedIn} alt="" />
+                                        </div>
+                                        <div>
+                                            <button><a target="_blank" href="https://www.linkedin.com/in/suthunya-purciful-59956a18b/">Linkedin</a></button></div>
                                     </div>
                                 </div>
                             </Tilt>

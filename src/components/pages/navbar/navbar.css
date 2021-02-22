@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+
 ul {
     list-style-type: none;
+    color: whitesmoke;
+    font-family: 'Emilys Candy',
+        cursive;
 }
 
 a {
     text-decoration: none;
+
 }
 
 h1,
@@ -86,8 +92,10 @@ p {
 Navbar
 ===============
 */
+
+
 nav {
-    background: #0d0d0e;
+    background: #19191b;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -96,6 +104,12 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
+}
+
+.nav-header h4 {
+    color: whitesmoke;
+    font-family: 'Emilys Candy',
+        cursive;
 }
 
 .nav-toggle {
@@ -117,23 +131,22 @@ nav {
 }
 
 .links a {
-    color: hsl(209, 34%, 30%);
+    /* color: hsl(209, 34%, 30%); */
     font-size: 1rem;
     text-transform: capitalize;
     letter-spacing: 0.1rem;
     display: block;
     padding: 0.5rem 1rem;
     transition: all 0.3s linear;
+    color: #a69cbe;
+    font-family: 'Emilys Candy',
+        cursive;
 }
 
 .links a:hover {
     background: hsl(205, 86%, 81%);
     color: hsl(205, 78%, 60%);
     padding-left: 1.5rem;
-}
-
-.social-icons {
-    display: none;
 }
 
 .links-container {
@@ -182,17 +195,4 @@ nav {
         background: transparent;
     }
 
-    .social-icons {
-        display: flex;
-    }
-
-    .social-icons a {
-        margin: 0 0.5rem;
-        color: hsl(205, 78%, 60%);
-        transition: all 0.3s linear;
-    }
-
-    .social-icons a:hover {
-        color: hsl(205, 90%, 76%);
-    }
 }

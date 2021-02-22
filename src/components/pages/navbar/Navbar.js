@@ -23,7 +23,7 @@ const Navbar = () => {
         <nav>
             <div className='nav-center'>
                 <div className='nav-header'>
-                    Suthunya Purciful
+                    <h4>Suthunya Purciful</h4>
                     <button className='nav-toggle' onClick={toggleLinks}>
                         <FaBars />
                     </button>
