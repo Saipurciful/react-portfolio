@@ -22,7 +22,7 @@ const Login = () => {
                 <Container>
                     <h1>Contact</h1>
                     <Row>
-                        <Col>
+                        <Col lg={6} md={3} sm={3}>
                             <Tilt className="containerLogin">
                                 <div className="cardS">
                                     <div className="contentCard">
@@ -37,7 +37,7 @@ const Login = () => {
                             </Tilt >
 
                         </Col>
-                        <Col>
+                        <Col lg={6} md={3} sm={3}>
                             <Tilt className="containerLogin">
                                 <div className="cardS">
                                     <div className="contentCard">
@@ -54,7 +54,7 @@ const Login = () => {
                     </Row>
 
                     <Row>
-                        <Col>
+                        <Col lg={6} md={3} sm={3}>
                             <Tilt className="containerLogin">
                                 <div className="cardS">
                                     <div className="contentCard">
@@ -69,7 +69,7 @@ const Login = () => {
                             </Tilt >
 
                         </Col>
-                        <Col>
+                        <Col lg={6} md={3} sm={3}>
                             <Tilt className="containerLogin">
                                 <div className="cardS">
                                     <div className="contentCard">
